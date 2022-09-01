@@ -1,0 +1,31 @@
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+li {
+    width: 14rem;
+    height: 25rem;
+    border-radius: 1rem;
+    border: 2px solid grey;
+    background-image: url(0-sprite.png);
+    background-size: 40rem;
+    background-position: -12rem 6.5rem;
+    margin: 1rem 2rem;
+    padding: 1rem;
+    background-repeat: no-repeat;
+    background-color: #f7f7f7;
+}
+
+li:first-child {
+    background-position: 1.5rem 6.5rem;
+}
+
+li:last-child {
+    background-position: -25.5rem 6.5rem;;
+}
